@@ -18,7 +18,7 @@ function btnDesencriptar(){
     const txtDesencriptado = desencriptar(textArea.value);
     mensaje.value = txtDesencriptado;
     textArea.value="";
-    mensaje.style.backgroundImage = "none";
+    mensaje.style.backgroundImage = "none"; //desaparece la imagen
 }
 
 function encriptar(strEncriptado){
